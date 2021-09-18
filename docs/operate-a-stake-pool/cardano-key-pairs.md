@@ -20,6 +20,7 @@ Cardano wallet addresses currently entail only two components - a payment addres
  
  
 `payment.vkey` - payment address public verification key file (not sensitive; may be shared publicly).
+
 `payment.skey` - payment address secret (private) signing key file and is highly sensitive. The private signing key file provides access to funds held within the corresponding payment address and should be guarded at all costs.
 
 :::danger 
